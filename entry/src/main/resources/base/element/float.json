@@ -1,0 +1,24 @@
+{
+  "float": [
+    {
+      "name": "water_item_font_size",
+      "value": "18fp"
+    },
+    {
+      "name": "water_item_ml_font_size",
+      "value": "12fp"
+    },
+    {
+      "name": "water_target_font_size",
+      "value": "18fp"
+    },
+    {
+      "name": "set_target_button_font_size",
+      "value": "18fp"
+    },
+    {
+      "name": "warning_font_size",
+      "value": "10fp"
+    }
+  ]
+}

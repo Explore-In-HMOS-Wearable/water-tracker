@@ -1,0 +1,6 @@
+{
+  "src": [
+    "ui/pages/Index",
+    "ui/pages/SetTargetPage"
+  ]
+}

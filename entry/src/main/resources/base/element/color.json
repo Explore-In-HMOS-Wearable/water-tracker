@@ -1,0 +1,48 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "base_background_gradient_start",
+      "value": "#FF163A69"
+    },
+    {
+      "name": "base_background_gradient_end",
+      "value": "#FF030E1A"
+    },
+    {
+      "name": "base_water_item_end",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "gradient_green",
+      "value": "#008000"
+    },
+    {
+      "name": "gradient_orange",
+      "value": "#FFA500"
+    },
+    {
+      "name": "gradient_brown",
+      "value": "#964B00"
+    },
+    {
+      "name": "gradient_blue",
+      "value": "#0000FF"
+    },
+    {
+      "name": "gradient_target_button_start",
+      "value": "#E63C3CE8"
+    },
+    {
+      "name": "gradient_target_button_end",
+      "value": "#E6111184"
+    },
+    {
+      "name": "gauge",
+      "value": "#1E90FF"
+    }
+  ]
+}
