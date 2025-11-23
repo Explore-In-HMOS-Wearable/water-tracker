@@ -16,7 +16,7 @@ export class IndexViewModel extends BaseViewModel {
   }
 
   aboutToAppear(context: UIContext) {
-    if (this.waterService.waterTarget == 0) {
+    if (this.waterService.waterTarget === 0) {
       WaterService.instance().setWaterTarget(2000, context)
     }
 

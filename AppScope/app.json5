@@ -1,7 +1,7 @@
 {
   "app": {
-    "bundleName": "com.example.watertrackersample",
-    "vendor": "example",
+    "bundleName": "com.hmosdemos.watertrackersample",
+    "vendor": "hmosdemos",
     "versionCode": 1000000,
     "versionName": "1.0.0",
     "icon": "$media:layered_image",

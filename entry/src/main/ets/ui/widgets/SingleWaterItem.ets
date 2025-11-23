@@ -37,10 +37,9 @@ export function SingleWaterItem(value: number,
   .linearGradient({
     direction: GradientDirection.Bottom,
     colors: [[color, 0.0],
-      [0x99070738, .8],]
+      [0x99070738, 0.8]]
   })
   .onClick(() => {
-
     WaterService.instance().setCurrentWater(WaterService.instance().currentWater + value, context);
   })
 }
