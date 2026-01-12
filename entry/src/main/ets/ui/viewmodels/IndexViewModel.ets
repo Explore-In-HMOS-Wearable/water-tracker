@@ -19,7 +19,6 @@ export class IndexViewModel extends BaseViewModel {
     if (this.waterService.waterTarget === 0) {
       WaterService.instance().setWaterTarget(2000, context)
     }
-
     this.waterService.setHeader(context)
   }
 }

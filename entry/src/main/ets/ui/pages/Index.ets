@@ -5,7 +5,6 @@ import { IndexViewModel } from '../viewmodels/IndexViewModel';
 import { SetTargetButton } from '../widgets/SetTargetButton';
 import { SetTargetPage } from './SetTargetPage';
 
-
 @Entry
 @Component
 struct Index {
@@ -37,7 +36,6 @@ struct Index {
                 SingleWaterItem(250, $r('app.color.gradient_green'), 'app.media.bottle_250', 15, this.context, true);
                 SingleWaterItem(180, $r('app.color.gradient_orange'), 'app.media.bottle_300', 20, this.context);
               }
-
             }
             .width('95%')
             .margin({ bottom: 10 });
@@ -47,7 +45,6 @@ struct Index {
                 SingleWaterItem(420, $r('app.color.gradient_brown'), 'app.media.bottle_500', 20, this.context, true);
                 SingleWaterItem(500, $r('app.color.gradient_blue'), 'app.media.bottle_1L', 20, this.context);
               };
-
             }
             .width('95%')
             .margin({ bottom: 20 });
@@ -56,7 +53,6 @@ struct Index {
               SetTargetButton();
             }
             .width('95%')
-
           }
           .width('100%')
           .height('100%')
@@ -64,7 +60,6 @@ struct Index {
           .focusable(true)
           .focusOnTouch(true)
           .defaultFocus(true)
-
         }
         .colors($r('app.color.gauge'))
         .width('100%')
@@ -74,7 +69,6 @@ struct Index {
         .trackShadow({ radius: 3, offsetX: 3, offsetY: 3 })
         .value(WaterService.instance().currentWater)
         .align(Alignment.Center)
-
       }
       .width('100%')
       .height('100%')

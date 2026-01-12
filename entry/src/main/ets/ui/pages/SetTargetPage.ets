@@ -12,7 +12,7 @@ export struct SetTargetPage {
   }
 
   isButtonActive(): boolean {
-    return (this.value * 100) != WaterService.instance().waterTarget
+    return (this.value * 100) !== WaterService.instance().waterTarget
   }
 
   build() {

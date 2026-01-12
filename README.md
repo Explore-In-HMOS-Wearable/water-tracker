@@ -1,11 +1,10 @@
-> **Note:** To access all shared projects, get information about environment setup, and view other guides, please visit [Explore-In-HMOS-Wearable Index](https://github.com/Explore-In-HMOS-Wearable/hmos-index).
+> **Note:** To access all shared projects, get information about environment setup, and view other guides, please visit 
 
-# WaterTracker
+# water-tracker
 
 A simple water tracker app to help users stay hydrated by tracking their daily water intake goals.
 
 # Preview
-
 
 <p align="left">
   <img src="screenshots/1.png" width="24%">
@@ -13,7 +12,6 @@ A simple water tracker app to help users stay hydrated by tracking their daily w
   <img src="screenshots/4.png" width="24%">
   <img src="screenshots/6.png" width="24%">
 </p>
-
 
 # Use Cases
 
@@ -25,7 +23,6 @@ Ideal for fitness enthusiasts or anyone aiming to improve daily water consumptio
 - **Frameworks**: HarmonyOS SDK 5.1.0(18)
 - **Tools**: DevEco Studio Vers 5.1.0.842
 - **Libraries**: @kit.ArkUI
-
 
 # Directory Structure
 
@@ -54,11 +51,7 @@ Ideal for fitness enthusiasts or anyone aiming to improve daily water consumptio
 ## Supported Devices
 - Huawei Watch 5
 
-
 # LICENSE
 
-WaterTracker is distributed under the terms of the MIT License.
+water-tracker is distributed under the terms of the MIT License.
 See the [LICENSE](/LICENSE) for more information.
-
-
-

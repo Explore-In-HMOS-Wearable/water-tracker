@@ -3,7 +3,7 @@ import { ComponentContent } from '@kit.ArkUI';
 @Builder
 function buildText() {
   Column() {
-    Text(WaterService.instance().currentWater.toString() + '/' + WaterService.instance().waterTarget.toString())
+    Text(`${WaterService.instance().currentWater}/${WaterService.instance().waterTarget}`)
       .fontSize($r('app.float.water_target_font_size'))
       .fontWeight(FontWeight.Bold)
   }
@@ -40,7 +40,6 @@ export class WaterService {
     this._waterTarget = value;
     WaterService.instance().setHeader(context);
   }
-
 
   // Ensure only one instance of this Service has created
   static instance() {
