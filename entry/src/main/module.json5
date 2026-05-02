@@ -9,6 +9,11 @@
     ],
     "deliveryWithInstall": true,
     "installationFree": false,
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.PUBLISH_AGENT_REMINDER"
+      }
+    ],
     "pages": "$profile:main_pages",
     "abilities": [
       {
@@ -33,6 +38,20 @@
       }
     ],
     "extensionAbilities": [
+      {
+        "name": "EntryFormAbility",
+        "srcEntry": "./ets/entryformability/EntryFormAbility.ets",
+        "label": "$string:EntryFormAbility_label",
+        "description": "$string:EntryFormAbility_desc",
+        "type": "form",
+        "exported": true,
+        "metadata": [
+          {
+            "name": "ohos.extension.form",
+            "resource": "$profile:form_config"
+          }
+        ]
+      },
       {
         "name": "EntryBackupAbility",
         "srcEntry": "./ets/entrybackupability/EntryBackupAbility.ets",

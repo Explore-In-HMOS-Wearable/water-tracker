@@ -23,6 +23,22 @@
     {
       "name": "warning",
       "value": "Please change target to use Set Button"
+    },
+    {
+      "name": "EntryFormAbility_desc",
+      "value": "Hydration progress widget"
+    },
+    {
+      "name": "EntryFormAbility_label",
+      "value": "Hydration Widget"
+    },
+    {
+      "name": "hydration_widget_name",
+      "value": "Hydration Progress"
+    },
+    {
+      "name": "hydration_widget_desc",
+      "value": "See today's intake and goal status"
     }
   ]
 }

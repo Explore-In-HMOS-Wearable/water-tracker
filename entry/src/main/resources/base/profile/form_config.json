@@ -1,0 +1,25 @@
+{
+  "forms": [
+    {
+      "name": "hydration_progress_widget",
+      "displayName": "$string:hydration_widget_name",
+      "description": "$string:hydration_widget_desc",
+      "src": "./ets/widget/pages/WidgetCard.ets",
+      "uiSyntax": "arkts",
+      "isDefault": true,
+      "supportDimensions": [
+        "3*3"
+      ],
+      "defaultDimension": "3*3",
+      "updateEnabled": true,
+      "updateDuration": 1,
+      "fontScaleFollowSystem": true,
+      "supportShapes": [
+        "circle"
+      ],
+      "previewImages": [
+        "$media:foreground"
+      ]
+    }
+  ]
+}

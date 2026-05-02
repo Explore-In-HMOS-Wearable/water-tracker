@@ -1,6 +1,7 @@
 @Component
 export struct SetTargetButton {
   @Consume('NavPathStack') pageStack: NavPathStack;
+  private readonly setTargetRouteName: string = 'set-target';
 
   build() {
     Row() {
@@ -21,14 +22,14 @@ export struct SetTargetButton {
     .justifyContent(FlexAlign.SpaceBetween)
     .padding({ left: 8, right: 8 })
     .width('70%')
-    .height('65px')
+    .height(45)
     .linearGradient({
       direction: GradientDirection.Right,
       colors: [[$r('app.color.gradient_target_button_start'), 0.0],
         [$r('app.color.gradient_target_button_end'), 1]]
     })
     .onClick(() => {
-      this.pageStack.pushPathByName('SetTargetPage', null);
+      this.pageStack.pushPath({ name: this.setTargetRouteName, param: null });
     })
   }
 }

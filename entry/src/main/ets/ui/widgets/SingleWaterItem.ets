@@ -1,11 +1,9 @@
-import { WaterService } from '../../core/services/WaterService'
-
 @Builder
 export function SingleWaterItem(value: number,
   color: ResourceColor,
   iconPath: string,
   iconSize: number,
-  context: UIContext,
+  onTap: (value: number) => void,
   isLeft: boolean = false,
 ) {
   Row() {
@@ -33,13 +31,13 @@ export function SingleWaterItem(value: number,
   .justifyContent(FlexAlign.Center)
   .margin({ right: isLeft ? 10 : 0 })
   .width('35%')
-  .height('65px')
+  .height(45)
   .linearGradient({
     direction: GradientDirection.Bottom,
     colors: [[color, 0.0],
       [0x99070738, 0.8]]
   })
   .onClick(() => {
-    WaterService.instance().setCurrentWater(WaterService.instance().currentWater + value, context);
+    onTap(value);
   })
 }

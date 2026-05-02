@@ -1,16 +1,13 @@
-> **Note:** To access all shared projects, get information about environment setup, and view other guides, please visit 
-
-# water-tracker
+# Water Tracker
 
 A simple water tracker app to help users stay hydrated by tracking their daily water intake goals.
 
 # Preview
 
 <p align="left">
-  <img src="screenshots/1.png" width="24%">
-  <img src="screenshots/2.png" width="24%">
-  <img src="screenshots/4.png" width="24%">
-  <img src="screenshots/6.png" width="24%">
+  <img src="screenshots/water1.png" width="24%">
+  <img src="screenshots/water2.png" width="24%">
+  <img src="screenshots/water3.png" width="24%">
 </p>
 
 # Use Cases
@@ -19,10 +16,10 @@ Ideal for fitness enthusiasts or anyone aiming to improve daily water consumptio
 
 # Tech Stack
 
-- **Languages**: ArkTS, Typescript
-- **Frameworks**: HarmonyOS SDK 5.1.0(18)
-- **Tools**: DevEco Studio Vers 5.1.0.842
-- **Libraries**: @kit.ArkUI
+- **Languages**: ArkTS, TypeScript
+- **Frameworks**: HarmonyOS SDK 6.0.0(20)
+- **Tools**: DevEco Studio 6.0.0
+- **Kits/Libraries**: `@kit.AbilityKit`, `@kit.ArkUI`, `@kit.ArkData`, `@kit.FormKit`, `@kit.BackgroundTasksKit`, `@kit.NotificationKit`, `@kit.PerformanceAnalysisKit`, `@kit.BasicServicesKit`, `@kit.CoreFileKit`
 
 # Directory Structure
 
@@ -35,13 +32,13 @@ Ideal for fitness enthusiasts or anyone aiming to improve daily water consumptio
 |---entryability
 | |---EntryAbility.ets
 |---entrybackupability
-| |---EntryBackupAbility.ets  
+| |---EntryBackupAbility.ets
 |---ui
 | |---pages
-| | |---Index.ets 
+| | |---Index.ets
 | | |---SetTargetPage.ets # Target Setting Page
 | |---viewmodels
-| | |---IndexViewModel.ets 
+| | |---IndexViewModel.ets
 | |---widgets
 | | |---SetTargetButton.ets # Button component
 | | |---SingleWaterItem.ets # Water item component
